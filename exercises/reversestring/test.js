@@ -11,6 +11,9 @@ const { reverse } = require('./index');
 //     console.log(err);
 //   }
 // }
+// it('reverse function exist', ()=>{
+//   expect(reverse).toBeDefined()
+// })
 
 it('reverse the string', () => {
   reverse('abc');
